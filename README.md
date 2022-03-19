@@ -36,21 +36,21 @@
 
 Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Finished reading)
 
-| No.  |                  Chapter Title                   |    Status     |
-| :--: | :----------------------------------------------: | :-----------: |
-| Ch01 |         [JavaScript reloaded](./Ch01.md)         | :orange_book: |
-|      |              **Part 1 -- Objects**               |               |
-| Ch02 |  [Inheritance-based object modeling](./Ch02.md)  | :orange_book: |
-| Ch03 | [Linked, compositional object models](./Ch03.md) |  :no_entry:   |
-|      |             **Part 2 -- Functions**              |               |
-| Ch04 |    [Writing composable, pure code](./Ch04.md)    |  :no_entry:   |
-| Ch05 |      [Higher-kinded composition](./Ch05.md)      |  :no_entry:   |
-|      |                **Part 3 -- Code**                |               |
-| Ch06 |         [ECMAScript Modules](./Ch06.md)          |  :no_entry:   |
-| Ch07 |      [Hooked on metaprogramming](./Ch07.md)      |  :no_entry:   |
-|      |                **Part 4 -- Data**                |               |
-| Ch08 |         [Linear async flows](./Ch08.md)          |  :no_entry:   |
-| Ch09 |         [Streams programming](./Ch09.md)         |  :no_entry:   |
+| No.  |                  Chapter Title                   |          Status          |
+| :--: | :----------------------------------------------: | :----------------------: |
+| Ch01 |         [JavaScript reloaded](./Ch01.md)         |      :orange_book:       |
+|      |              **Part 1 -- Objects**               |                          |
+| Ch02 |  [Inheritance-based object modeling](./Ch02.md)  |      :orange_book:       |
+| Ch03 | [Linked, compositional object models](./Ch03.md) | :hourglass_flowing_sand: |
+|      |             **Part 2 -- Functions**              |                          |
+| Ch04 |    [Writing composable, pure code](./Ch04.md)    |        :no_entry:        |
+| Ch05 |      [Higher-kinded composition](./Ch05.md)      |        :no_entry:        |
+|      |                **Part 3 -- Code**                |                          |
+| Ch06 |         [ECMAScript Modules](./Ch06.md)          |        :no_entry:        |
+| Ch07 |      [Hooked on metaprogramming](./Ch07.md)      |        :no_entry:        |
+|      |                **Part 4 -- Data**                |                          |
+| Ch08 |         [Linear async flows](./Ch08.md)          |        :no_entry:        |
+| Ch09 |         [Streams programming](./Ch09.md)         |        :no_entry:        |
 
 
 
