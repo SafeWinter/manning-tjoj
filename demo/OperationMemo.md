@@ -20,3 +20,9 @@
 1. 测试1：（沿用 `listing2.2` 代码）继承关系已建立（`Object.getPrototypeOf(child) === parent`）
 2. 测试2：父类属性可访问；
 3. 子类属性也可访问。
+
+
+
+> Listing 2.3a
+
+- 在 `Listing 2.3` 的基础上，测试 `Object.create(proto, properties)` 的第二个参数，重新定义 `funds` 属性。
