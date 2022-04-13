@@ -26,3 +26,11 @@
 > Listing 2.3a
 
 - 在 `Listing 2.3` 的基础上，测试 `Object.create(proto, properties)` 的第二个参数，重新定义 `funds` 属性。
+
+
+
+> Listing 2.4 Creating hashTransaction with basic hashing calculation
+
+1. 使用 `Object.create` 定义 `hashTransaction` 对象及哈希值计算方法；
+2. 使用 `Object.setPrototypeOf(child, parent)` 重新定义子类对象 `moneyTransaction`，并调用父类方法计算哈希值成功。
+3. 新增【添加分割线】方法 `splitline()`
