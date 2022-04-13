@@ -1,13 +1,13 @@
 {
   "name": "demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "DIY demo repo for 'The Joy Of JavaScript, Manning 2021.2, Luis Atencio,'",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anton",
   "license": "ISC"
 }
