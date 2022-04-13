@@ -12,3 +12,11 @@
 1. Create `transaction` as parent, `moneyTransaction` as child object;
 
 2. Add `funds` property & `addFunds` method for `moneyTransaction`;
+
+
+
+> Listing 2.3
+
+1. 测试1：（沿用 `listing2.2` 代码）继承关系已建立（`Object.getPrototypeOf(child) === parent`）
+2. 测试2：父类属性可访问；
+3. 子类属性也可访问。
