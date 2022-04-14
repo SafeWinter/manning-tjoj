@@ -34,3 +34,11 @@
 1. 使用 `Object.create` 定义 `hashTransaction` 对象及哈希值计算方法；
 2. 使用 `Object.setPrototypeOf(child, parent)` 重新定义子类对象 `moneyTransaction`，并调用父类方法计算哈希值成功。
 3. 新增【添加分割线】方法 `splitline()`
+
+
+
+> Listing2.5 Building and linking objects using the constructor functions pattern
+
+1. 实测 `function` 的构造函数模式创建父子关系；
+2. 实测 `target.new` 的用法。
+
