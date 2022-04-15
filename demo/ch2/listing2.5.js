@@ -1,6 +1,6 @@
 // Listing 2.5 Building and linking objects using the constructor functions pattern
 
-import { log } from "../util.js";
+import { log } from '../util.js';
 
 // Base constructor
 function Transaction(sender, recipient) {
@@ -21,7 +21,7 @@ function HashTransaction(sender, recipient) {
 
   // Adds a new calculateHash method to every instance created
   this.calculateHash = function calculateHash() {
-    const data = [this.sender, this.recipient].join("");
+    const data = [this.sender, this.recipient].join('');
     let hash = 0,
       i = 0;
     while (i < data.length) {
@@ -33,18 +33,18 @@ function HashTransaction(sender, recipient) {
 
 // Uses the new keyword to instantiate new objects.
 // The new keyword is required to pass the newly created object as the this context.
-const tx = new HashTransaction("luis@tjoj.com", "luke@tjoj.com");
+const tx = new HashTransaction('luis@tjoj.com', 'luke@tjoj.com');
 
-log(tx.calculateHash());
-log(tx.sender);
+log(tx.calculateHash()); // 237572532174000400
+log(tx.sender); // luis@tjoj.com
 
 // Test whether instance methods are the same (no)
-const tx1 = new HashTransaction("luis@tjoj.com", "luke@tjoj.com");
-const tx2 = new HashTransaction("luis@tjoj.com", "luke@tjoj.com");
+const tx1 = new HashTransaction('luis@tjoj.com', 'luke@tjoj.com');
+const tx2 = new HashTransaction('luis@tjoj.com', 'luke@tjoj.com');
 log(
-  "tx1.calculateHash === tx2.calculateHash:",
+  'tx1.calculateHash === tx2.calculateHash:',
   tx1.calculateHash === tx2.calculateHash
-);
+); // tx1.calculateHash === tx2.calculateHash: false
 
 /*
 Test: node node ./demo/ch2/listing2.5
