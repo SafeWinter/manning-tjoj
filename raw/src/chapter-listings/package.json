@@ -1,0 +1,56 @@
+{
+  "name": "@joj/chapter-listings",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-function-bind": "^7.10.1",
+    "@babel/plugin-proposal-numeric-separator": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/plugin-proposal-pipeline-operator": "^7.10.1",
+    "@babel/plugin-proposal-throw-expressions": "^7.10.1",
+    "@babel/plugin-syntax-throw-expressions": "^7.10.1",
+    "@babel/plugin-transform-regenerator": "^7.10.1",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-flow": "^7.10.1",
+    "@babel/register": "^7.10.1",
+    "babel-eslint": "^8.2.3",
+    "chai": "^4.1.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-flowtype-errors": "^3.6.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "flow-bin": "0.124.0",
+    "flow-typed": "^3.1.0",
+    "link-module-alias": "^1.2.0",
+    "mocha": "^7.2.0",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@joj/blockchain": "file:../blockchain/dist",
+    "crocks": "^0.11.1",
+    "ramda": "^0.26.1",
+    "underscore": "^1.10.2"
+  },
+  "scripts": {
+    "lint": "eslint src/",
+    "lint-fix": "eslint src/ --fix",
+    "flow": "flow",
+    "build": "babel src --out-dir _babel/src --keep-file-extension --copy-files",
+    "test": "mocha",
+    "test-all": "npm run check ; rm -rf _babel && npm run build; mocha \"_babel/**/*spec.mjs\"; rm -rf _babel",
+    "check": "npm run flow-stop ; npm run flow",
+    "flow-init": "flow init",
+    "flow-status": "flow status",
+    "flow-stop": "flow stop",
+    "flow-typed": "flow-typed"
+  },
+  "quokka": {
+    "babel": false
+  }
+}

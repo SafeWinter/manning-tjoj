@@ -1,0 +1,5 @@
+//@flow
+
+export interface Functor<T> {
+    map: <Z>(T => Z) => Functor<Z>
+}
