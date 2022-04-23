@@ -46,8 +46,8 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | Ch04 |    [Writing composable, pure code](./Ch04.md)    |      :orange_book:       |
 | Ch05 |      [Higher-kinded composition](./Ch05.md)      |      :orange_book:       |
 |      |                **Part 3 -- Code**                |                          |
-| Ch06 |         [ECMAScript Modules](./Ch06.md)          | :hourglass_flowing_sand: |
-| Ch07 |      [Hooked on metaprogramming](./Ch07.md)      |        :no_entry:        |
+| Ch06 |         [ECMAScript Modules](./Ch06.md)          |      :orange_book:       |
+| Ch07 |      [Hooked on metaprogramming](./Ch07.md)      | :hourglass_flowing_sand: |
 |      |                **Part 4 -- Data**                |                          |
 | Ch08 |         [Linear async flows](./Ch08.md)          |        :no_entry:        |
 | Ch09 |         [Streams programming](./Ch09.md)         |        :no_entry:        |
