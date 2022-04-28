@@ -49,8 +49,8 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | Ch06 |         [ECMAScript Modules](./Ch06.md)          |      :orange_book:       |
 | Ch07 |      [Hooked on metaprogramming](./Ch07.md)      |      :orange_book:       |
 |      |                **Part 4 -- Data**                |                          |
-| Ch08 |         [Linear async flows](./Ch08.md)          | :hourglass_flowing_sand: |
-| Ch09 |         [Streams programming](./Ch09.md)         |        :no_entry:        |
+| Ch08 |         [Linear async flows](./Ch08.md)          |      :orange_book:       |
+| Ch09 |         [Streams programming](./Ch09.md)         | :hourglass_flowing_sand: |
 
 
 
