@@ -14,12 +14,6 @@ function randomNumberIterator(size = 1) {
         .map(min => nextRandInt(min)(Number.MAX_SAFE_INTEGER));
     
     return {
-        [Symbol.iterator]() {
-            // Because the object already implements
-            // next, it’s enough to return itself, making
-            // it both an iterator and an iterable.
-            return this
-        },
         next() {
             return numbers.length === 0
                 // Signals the end of the sequence
@@ -32,8 +26,16 @@ function randomNumberIterator(size = 1) {
 }
 
 let it = randomNumberIterator(3);
-for(const num of it) {
-    log(num)
-}
+log(it.next().value);
+log(it.next().value);
+log(it.next().value);
+log(it.next().done);
 
-log(...randomNumberIterator(3));
+/*
+Launch test: node ch9/listing9.1
+Resutl: 
+974489674760776
+5457867772842922
+3639996493223624
+true
+*/
