@@ -40,10 +40,15 @@ const tx1 = new HashTransaction('luis@tjoj.com', 'luke@tjoj.com');
 const tx2 = new HashTransaction('luis@tjoj.com', 'luke@tjoj.com');
 
 log(Transaction.prototype.isPrototypeOf(tx1)); // true
+
 log(tx1.calculateHash === tx2.calculateHash); // true
-log(tx1.calculateHash());
+
+log(tx1.calculateHash()); // 237572532174000400
+
 log(tx1.displayTransaction === tx2.displayTransaction); // true
-log(tx2.displayTransaction());
+
+log(tx2.displayTransaction()); // Transaction from luis@tjoj.com to luke@tjoj.com
+
 log(tx1.__proto__.__proto__); // { displayTransaction: [Function: displayTransaction] }
 
 /**
@@ -51,5 +56,8 @@ Test: node demo/ch2/listing2.6
 Result:
 true
 true
+237572532174000400
+true
+Transaction from luis@tjoj.com to luke@tjoj.com
 { displayTransaction: [Function: displayTransaction] }
  */
