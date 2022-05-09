@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Anton",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.22.4"
+  }
 }
